@@ -1,5 +1,4 @@
-# Formul-rio-de-Contato
-Estudo sobre HTML
+# Formulario-de-Contato
 <h1 align="center"> Estudo sobre HTML/construindo um formulário </h1>
 <p> Isso foi apenas uma estudo para eu fixar algumas coisas<p> <br>
 
