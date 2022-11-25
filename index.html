@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url(pick.png);
+        }
+        fieldset{
+            font-family: 'Roboto', sans-serif;
+            background-color: rgb(201, 201, 201);
+            border-radius: 0.31rem;
+            border: none;
+            margin: 0em;
+            padding: 1px 6px;
+            border-width: 2px;
+            border-style: outset;
+            border-color: buttonborder;
+            border-image: initial;
+        }
+        #form{
+           margin-left: 40%;
+        }
+    </style>
+    <title>Formulário de contato</title>
+</head>
+<body>
+    <fieldset>
+        <div id="form">
+            <legend id="Entre">Entre em Contato</legend>
+            <select name="select" id="select">
+                <option value="01">Suporte</option>
+                <option value="02">Sugestão</option>
+                <option value="03">Reclamação</option>
+            </select>
+            <br>
+            <p>
+                Nome Completo:<br>
+                <input type="text" id="Nome"><br>
+            </p>
+            <p>
+                E-Mail:<br>
+                <input type="text" id="Email">
+            </p>
+            <p>
+                Mensagem: <br>
+                <textarea name="mensagem" id="men" cols="30" rows="10"></textarea>
+            </p>
+            <input type="checkbox" name="" id=""> Aceito receber novidades pelo e-mail
+        </div>
+        
+    </fieldset>
+    
+</body>
+</html>
